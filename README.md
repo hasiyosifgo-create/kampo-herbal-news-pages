@@ -8,8 +8,8 @@ GitHub Actionsは5分間隔（`*/5 * * * *`）で実行されます。GitHub Act
 
 | 役割 | 実装 |
 |---|---|
-| 表示 | `github-pages/` のHTML・CSS・JavaScript |
-| ニュースデータ | `github-pages/data/news.json` |
+| 表示 | `docs/` のHTML・CSS・JavaScript |
+| ニュースデータ | `docs/data/news.json` |
 | 収集 | `scripts/github-pages-crawl.mjs` |
 | 自動更新・公開 | `.github/workflows/refresh-and-deploy.yml` |
 
@@ -17,7 +17,7 @@ GitHub Actionsは5分間隔（`*/5 * * * *`）で実行されます。GitHub Act
 
 ## GitHub Pagesの有効化
 
-リポジトリの **Settings → Pages → Build and deployment → Source** で **GitHub Actions** を選択してください。初回は、Actions タブから `Refresh news data and deploy Pages` を手動実行できます。
+リポジトリの **Settings → Pages → Build and deployment → Source** で **Deploy from a branch** を選び、`main` ブランチの `/docs` を指定してください。初回公開後は、`https://hasiyosifgo-create.github.io/kampo-herbal-news-pages/` で閲覧できます。
 
 ## 情報源
 

@@ -6,6 +6,6 @@
   "scripts": {
     "test": "node --test scripts/github-pages-crawl.test.mjs",
     "refresh": "node scripts/github-pages-crawl.mjs",
-    "serve": "npx --yes serve github-pages"
+    "serve": "npx --yes serve docs"
   }
 }

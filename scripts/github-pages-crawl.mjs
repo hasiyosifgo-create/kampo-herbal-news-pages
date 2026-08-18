@@ -4,7 +4,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const dataPath = resolve(root, "github-pages/data/news.json");
+const dataPath = resolve(root, "docs/data/news.json");
 const membersPath = process.env.MEMBERS_SOURCE || resolve(root, "member-sources.txt");
 const now = new Date();
 const hash = value => createHash("sha256").update(value).digest("hex");
