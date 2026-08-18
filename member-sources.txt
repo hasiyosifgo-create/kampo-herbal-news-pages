@@ -1,0 +1,77 @@
+/**
+ * 日本漢方生薬製剤協会の公式会員一覧を基準とする収集対象企業。
+ * sourceType が no_public_source の企業は、公式の告知一覧を確認できないため
+ * PMDA・協会の公表情報で補完し、公式サイト由来の記事は作成しない。
+ */
+export type JkmaSourceType = "news_list" | "release_list" | "product_list" | "no_public_source";
+
+export type JkmaMemberSource = {
+  company: string;
+  url: string;
+  sourceType: JkmaSourceType;
+};
+
+export const JKMA_MEMBER_SOURCES: readonly JkmaMemberSource[] = [
+  { company: "アスゲン製薬株式会社", url: "https://www.asgen.co.jp/news/", sourceType: "news_list" },
+  { company: "甘利香辛食品株式会社", url: "https://www.amarisp.co.jp/news/", sourceType: "news_list" },
+  { company: "アリナミン製薬株式会社", url: "https://alinamin-pharma.co.jp/news/", sourceType: "news_list" },
+  { company: "アルプス薬品工業株式会社", url: "https://www.alps-pharm.co.jp/news/", sourceType: "news_list" },
+  { company: "イスクラ産業株式会社", url: "https://www.iskra.co.jp/news/", sourceType: "news_list" },
+  { company: "株式会社ウチダ和漢薬", url: "https://www.uchidawakanyaku.co.jp/oshirase.html", sourceType: "news_list" },
+  { company: "大木製薬株式会社", url: "https://www.ohkiseiyaku.com/release/", sourceType: "release_list" },
+  { company: "大草薬品株式会社", url: "https://www.okusa.co.jp/topix/", sourceType: "news_list" },
+  { company: "大杉製薬株式会社", url: "https://ohsugi-kanpo.co.jp/information", sourceType: "news_list" },
+  { company: "株式会社太田胃散", url: "https://ohta-isan.co.jp/whatsnew_type/product/", sourceType: "product_list" },
+  { company: "大峰堂薬品工業株式会社", url: "https://www.ominedo.co.jp/category/news/", sourceType: "news_list" },
+  { company: "北日本製薬株式会社", url: "https://www.999jp.co.jp/company/news.html", sourceType: "news_list" },
+  { company: "救心製薬株式会社", url: "https://www.kyushin.co.jp/", sourceType: "news_list" },
+  { company: "クラシエ薬品株式会社", url: "https://www.kampoyubi.jp/", sourceType: "news_list" },
+  { company: "興和株式会社", url: "https://medical.kowa.co.jp/medical/news/", sourceType: "news_list" },
+  { company: "小太郎漢方製薬株式会社", url: "https://www.kotaro.co.jp/iryou/product_list/news/", sourceType: "news_list" },
+  { company: "小西製薬株式会社", url: "https://konishi-ph.jp/", sourceType: "news_list" },
+  { company: "小林製薬株式会社", url: "https://www.kobayashi.co.jp/newsrelease/", sourceType: "news_list" },
+  { company: "剤盛堂薬品株式会社", url: "https://www.zaiseido.co.jp/topics", sourceType: "news_list" },
+  { company: "株式会社阪本漢法製薬", url: "https://sakampow.com/news/", sourceType: "news_list" },
+  { company: "佐藤製薬株式会社", url: "https://www.sato-seiyaku.co.jp/newsrelease/", sourceType: "release_list" },
+  { company: "三宝製薬株式会社", url: "https://www.sampo-seiyaku.co.jp/", sourceType: "news_list" },
+  { company: "三和生薬株式会社", url: "http://www.sanwashoyaku.co.jp/info/", sourceType: "news_list" },
+  { company: "ジェーピーエス製薬株式会社", url: "https://www.jps-pharm.com/for-expert/news/", sourceType: "news_list" },
+  { company: "新生薬品工業株式会社", url: "https://www.shinsei-pha.co.jp/news/index.php", sourceType: "news_list" },
+  { company: "有限会社杉原達二商店", url: "https://www.nikkankyo.org/guide/guide6.htm", sourceType: "no_public_source" },
+  { company: "ゼリア新薬工業株式会社", url: "https://www.zeria.co.jp/news/", sourceType: "news_list" },
+  { company: "全薬工業株式会社", url: "https://www.zenyaku.co.jp/2026/", sourceType: "news_list" },
+  { company: "第一三共ヘルスケア株式会社", url: "https://www.daiichisankyo-hc.co.jp/newsroom/release/", sourceType: "release_list" },
+  { company: "大晃生薬有限会社", url: "https://www.daikoshoyaku.co.jp/", sourceType: "news_list" },
+  { company: "大幸薬品株式会社", url: "https://www.seirogan.co.jp/press/", sourceType: "news_list" },
+  { company: "太虎精堂製薬株式会社", url: "https://www.taikoseido.co.jp/news/", sourceType: "news_list" },
+  { company: "大正製薬株式会社", url: "https://www.taisho.co.jp/company/news/2026/", sourceType: "news_list" },
+  { company: "株式会社建林松鶴堂", url: "https://kanpou-tatebayashi.jp/ueno/index.html", sourceType: "news_list" },
+  { company: "株式会社ツムラ", url: "https://www.tsumura.co.jp/news/", sourceType: "news_list" },
+  { company: "陶陶酒製造株式会社", url: "https://tohtohshu.shop-pro.jp/apps/note", sourceType: "news_list" },
+  { company: "株式会社東洋薬行", url: "https://www.toyo-yakuko.co.jp/product/iryo01.html", sourceType: "release_list" },
+  { company: "株式会社常磐植物化学研究所", url: "https://www.tokiwaph.co.jp/notice/", sourceType: "news_list" },
+  { company: "株式会社栃本天海堂", url: "https://www.tochimoto.co.jp/post/", sourceType: "news_list" },
+  { company: "長野県生薬株式会社", url: "https://info.gbiz.go.jp/hojin/ichiran?hojinBango=7100001002292", sourceType: "no_public_source" },
+  { company: "長野県製薬株式会社", url: "https://www.hyakuso.co.jp/blog/", sourceType: "news_list" },
+  { company: "日東薬品工業株式会社", url: "https://www.nitto-pharma.co.jp/news/", sourceType: "news_list" },
+  { company: "日本新薬株式会社", url: "https://med.nippon-shinyaku.co.jp/news/", sourceType: "news_list" },
+  { company: "日本粉末薬品株式会社", url: "https://www.nfy.co.jp/news", sourceType: "news_list" },
+  { company: "日野薬品株式会社", url: "https://hinopharm.co.jp/news_category/hinoyakuhin/", sourceType: "news_list" },
+  { company: "福田龍株式会社", url: "https://www.fukudaryu.co.jp/contents/information/", sourceType: "news_list" },
+  { company: "本草製薬株式会社", url: "https://hnz.cloudfree.jp/information/index.html", sourceType: "news_list" },
+  { company: "松浦薬業株式会社", url: "https://www.matsuura-gp.co.jp/category/newslist/", sourceType: "news_list" },
+  { company: "三国株式会社", url: "https://www.mikunico.co.jp/", sourceType: "no_public_source" },
+  { company: "八ッ目製薬株式会社", url: "http://www.yatsume.co.jp/whatnew.htm", sourceType: "news_list" },
+  { company: "山本漢方製薬株式会社", url: "https://www.kanpo-yamamoto.com/news/", sourceType: "news_list" },
+  { company: "養命酒製造株式会社", url: "https://www.yomeishu-online.jp/news/", sourceType: "news_list" },
+  { company: "株式会社龍角散", url: "https://www.ryukakusan.co.jp/news/list", sourceType: "news_list" },
+  { company: "ロート製薬株式会社", url: "https://www.rohto.co.jp/news/", sourceType: "news_list" },
+  { company: "株式会社和漢薬研究所", url: "https://www.capony-wakanyaku.co.jp/category/news-info", sourceType: "news_list" },
+] as const;
+
+export const JKMA_MEMBER_COMPANIES = JKMA_MEMBER_SOURCES.map(source => source.company);
+export const JKMA_MEMBER_COUNT = JKMA_MEMBER_SOURCES.length;
+export const JKMA_PUBLIC_SOURCE_COUNT = JKMA_MEMBER_SOURCES.filter(source => source.sourceType !== "no_public_source").length;
+export const JKMA_NO_PUBLIC_SOURCE_COMPANIES = JKMA_MEMBER_SOURCES
+  .filter(source => source.sourceType === "no_public_source")
+  .map(source => source.company);

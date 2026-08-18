@@ -1,0 +1,11 @@
+{
+  "name": "kampo-herbal-news-pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test scripts/github-pages-crawl.test.mjs",
+    "refresh": "node scripts/github-pages-crawl.mjs",
+    "serve": "npx --yes serve github-pages"
+  }
+}

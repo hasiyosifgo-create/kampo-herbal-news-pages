@@ -1,0 +1,573 @@
+{
+  "updatedAt": "2026-08-18T15:22:55.356Z",
+  "coverage": {
+    "memberCompanies": 55,
+    "officialSources": 52,
+    "pmdaFallbackCompanies": 3,
+    "checkedCompanies": 52,
+    "successfulCompanies": 48,
+    "failedCompanies": 4
+  },
+  "checks": {
+    "株式会社太田胃散": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "アルプス薬品工業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "アスゲン製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "大木製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "救心製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "小太郎漢方製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "三宝製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "新生薬品工業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "全薬工業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "株式会社建林松鶴堂": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "株式会社東洋薬行": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "剤盛堂薬品株式会社": {
+      "status": "failure",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "大幸薬品株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "日本新薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "株式会社和漢薬研究所": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "福田龍株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "養命酒製造株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:16.099Z"
+    },
+    "大草薬品株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "イスクラ産業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "大峰堂薬品工業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "甘利香辛食品株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "三和生薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "小西製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "クラシエ薬品株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "株式会社阪本漢法製薬": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "第一三共ヘルスケア株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "太虎精堂製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "株式会社常磐植物化学研究所": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "株式会社ツムラ": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "八ッ目製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "本草製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "長野県製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "株式会社龍角散": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "日本粉末薬品株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:35.366Z"
+    },
+    "アリナミン製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "北日本製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "株式会社ウチダ和漢薬": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "小林製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "大杉製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "興和株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "佐藤製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "ジェーピーエス製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "大晃生薬有限会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "大正製薬株式会社": {
+      "status": "failure",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "株式会社栃本天海堂": {
+      "status": "failure",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "日東薬品工業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "日野薬品株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "陶陶酒製造株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "ゼリア新薬工業株式会社": {
+      "status": "failure",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "松浦薬業株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "山本漢方製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    },
+    "ロート製薬株式会社": {
+      "status": "success",
+      "checkedAt": "2026-08-18T15:22:55.356Z"
+    }
+  },
+  "articles": [
+    {
+      "id": "4726fbd67fb834c2f2e3a1676da888cc3e4296b4f5acbc392368fa3e0da91a31",
+      "title": "【生薬の便利帳】 『大黄』 を追加しました。",
+      "category": "general",
+      "publishedAt": "2026-08-10T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "大黄"
+      ],
+      "summary": "株式会社ウチダ和漢薬の公式告知を確認してください。",
+      "sourceName": "株式会社ウチダ和漢薬",
+      "sourceUrl": "https://www.uchidawakanyaku.co.jp/kampo/benricho/"
+    },
+    {
+      "id": "bb419ff8a5478ce5a5ea3f7b08f92ce5b7f17ec86832d34a320ca10b18700248",
+      "title": "2026.06.12日 和漢薬研究所だより 2026年6月",
+      "category": "general",
+      "publishedAt": "2026-07-31T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "株式会社和漢薬研究所の公式告知を確認してください。",
+      "sourceName": "株式会社和漢薬研究所",
+      "sourceUrl": "https://www.capony-wakanyaku.co.jp/news-factory/884306"
+    },
+    {
+      "id": "5369fde7a3cc8de66927e8086b52824322cfdb690a0615fa4f4c591f0c71a4a5",
+      "title": "漢方ファーストタッチに「気血水から学ぶ下痢に用いる三処方」が追加されました。",
+      "category": "general",
+      "publishedAt": "2026-07-30T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "気血水から学ぶ下痢に用いる三処方"
+      ],
+      "summary": "クラシエ薬品株式会社の公式告知を確認してください。",
+      "sourceName": "クラシエ薬品株式会社",
+      "sourceUrl": "https://www.kampoyubi.jp/learn/firsttouch/"
+    },
+    {
+      "id": "d5b7aa47e49b36c32ee30f9bbc8fb61eec02990592478c84874f9f6a4c8b14c3",
+      "title": "2026.07.29 ニュースリリース 「第26回JAPANドラッグストアショー」に出展 女性の健康をテーマに、漢方薬によるセルフケアを提案",
+      "category": "general",
+      "publishedAt": "2026-07-30T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "第26回JAPANドラッグストアショー"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/newsrelease/item/20260729.pdf"
+    },
+    {
+      "id": "d4b813aeed149350640dc936aa27e0ee814cfec33c9dd2a36123cafbe34abbdc",
+      "title": "セミナー・イベントのお知らせに『第68回 日本婦人科腫瘍学会学術講演会 ランチョンセミナー7』『第4回 ココロとカラダに漢方セミナー』『産婦人科医が語る人参養栄湯』が追加されました。",
+      "category": "general",
+      "publishedAt": "2026-07-15T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "第68回 日本婦人科腫瘍学会学術講演会 ランチョンセミナー7",
+        "第4回 ココロとカラダに漢方セミナー",
+        "産婦人科医が語る人参養栄湯"
+      ],
+      "summary": "クラシエ薬品株式会社の公式告知を確認してください。",
+      "sourceName": "クラシエ薬品株式会社",
+      "sourceUrl": "https://www.kampoyubi.jp/workshop/"
+    },
+    {
+      "id": "a41b2933e64757cb0d11766bb20dbda5a2441f7b9176ac0f4f6c76e99d886b00",
+      "title": "100秒でわかる漢方解説に「葛根湯」が追加されました。",
+      "category": "general",
+      "publishedAt": "2026-07-15T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "葛根湯"
+      ],
+      "summary": "クラシエ薬品株式会社の公式告知を確認してください。",
+      "sourceName": "クラシエ薬品株式会社",
+      "sourceUrl": "https://www.kampoyubi.jp/learn/100sec/"
+    },
+    {
+      "id": "373d351536e53a975d824621101ba8cab66e82926f45d3845db1fe2d0e0636e4",
+      "title": "2026.07.07 イベント 協賛イベント「フォーラム女性と漢方2026」－どこに診てもらえばいい？心と体のサインをひもとく－",
+      "category": "general",
+      "publishedAt": "2026-07-15T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "フォーラム女性と漢方2026"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/event/2026/202607071300.html"
+    },
+    {
+      "id": "9268f10e194f9b5557c51d04b2b5c699f855a23e9158e1839b0f7019ca5fe393",
+      "title": "「医療用漢方製剤」限定出荷解除のご案内",
+      "category": "discontinued",
+      "publishedAt": "2026-06-30T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "医療用漢方製剤"
+      ],
+      "summary": "ジェーピーエス製薬株式会社の公式告知を確認してください。",
+      "sourceName": "ジェーピーエス製薬株式会社",
+      "sourceUrl": "https://www.jps-pharm.com/assets/item/for-expert/2026-06-30.pdf"
+    },
+    {
+      "id": "72a419a67900fcadaff4cdef29b4d6f87259a9a3ef8f5aa1a677838bed9176d8",
+      "title": "「医療用漢方製剤」限定出荷のご案内",
+      "category": "discontinued",
+      "publishedAt": "2026-06-30T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "医療用漢方製剤"
+      ],
+      "summary": "ジェーピーエス製薬株式会社の公式告知を確認してください。",
+      "sourceName": "ジェーピーエス製薬株式会社",
+      "sourceUrl": "https://www.jps-pharm.com/assets/item/for-expert/2026-06-09.pdf"
+    },
+    {
+      "id": "b0e2c60bb27de2266395dab09ba86b3a0cbfcdd65636068a17ffde0fbe72ae1d",
+      "title": "2026.06.23 ニュースリリース 「漢方のヒ･ミ･ツを探る！ツムラ漢方記念館見学会」を開催",
+      "category": "general",
+      "publishedAt": "2026-06-23T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "漢方のヒ･ミ･ツを探る！ツムラ漢方記念館見学会"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/newsrelease/item/20260623.pdf"
+    },
+    {
+      "id": "f32f7d251154b109f1b59dd05362bfae21cdbe8fe0e483cf0901cf03b2385f5c",
+      "title": "2026.06.23 イベント 【夏休み限定】「漢方のヒ･ミ･ツを探る！ツムラ漢方記念館見学会」開催",
+      "category": "general",
+      "publishedAt": "2026-06-23T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "漢方のヒ･ミ･ツを探る！ツムラ漢方記念館見学会"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/event/2026/202606231000.html"
+    },
+    {
+      "id": "050ae19bf838aba602c6010ac5ab938d688ffbd998b61ac71ba366194dfe043e",
+      "title": "2026.06.22 オースギ福岡Web漢方セミナーのお知らせ（07月18日開催）",
+      "category": "general",
+      "publishedAt": "2026-06-22T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "大杉製薬株式会社の公式告知を確認してください。",
+      "sourceName": "大杉製薬株式会社",
+      "sourceUrl": "https://ohsugi-kanpo.co.jp/study/3476"
+    },
+    {
+      "id": "d4f681db395f30f260b8032e65dcfb7ec709ddaafca7375ab9dd3f00edaabbe2",
+      "title": "2026.04.17日 『婦人公論』５月号に「和漢薬研究所のおすすめ３製品」が掲載されました",
+      "category": "general",
+      "publishedAt": "2026-05-21T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "婦人公論",
+        "和漢薬研究所のおすすめ３製品"
+      ],
+      "summary": "株式会社和漢薬研究所の公式告知を確認してください。",
+      "sourceName": "株式会社和漢薬研究所",
+      "sourceUrl": "https://www.capony-wakanyaku.co.jp/news-info/882294"
+    },
+    {
+      "id": "c4c91e5e2946da2a14a7a92777e4958205de7a17d0f0ad9a05613b98638ebdf9",
+      "title": "医療用漢方製剤出荷調整に関するお知らせ",
+      "category": "general",
+      "publishedAt": "2026-05-19T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "本草製薬株式会社の公式告知を確認してください。",
+      "sourceName": "本草製薬株式会社",
+      "sourceUrl": "https://hnz.cloudfree.jp/information/uploads/2026/20260519_info.pdf"
+    },
+    {
+      "id": "e49ee8edb850dcb4f0692284771777a82fb0fb0327a44d59737eba5a9a40d407",
+      "title": "人は積み重ねることで、明日をつくる。ユンケル黄帝 新TVCM『生薬の力／パラパラ漫画風』篇 放映開始",
+      "category": "general",
+      "publishedAt": "2026-05-11T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "生薬の力／パラパラ漫画風"
+      ],
+      "summary": "佐藤製薬株式会社の公式告知を確認してください。",
+      "sourceName": "佐藤製薬株式会社",
+      "sourceUrl": "https://www.sato-seiyaku.co.jp/newsrelease/2026/260427/"
+    },
+    {
+      "id": "51ef65d9f20484d1e9a6b257ea852f9195fb1479b3f9aea5371c0c2caf79d24d",
+      "title": "2026.05.01 ニュースリリース 和漢と厳選素材が織りなす旨味「富麗華スープ」新発売",
+      "category": "launch",
+      "publishedAt": "2026-05-07T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "富麗華スープ"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/newsrelease/item/20260501.pdf"
+    },
+    {
+      "id": "5e867f53500b698409833b53a58ae023823b0d841a8bb580777d8d2177a220d3",
+      "title": "2026.03.12日 和漢薬研究所だより 2026年3月",
+      "category": "general",
+      "publishedAt": "2026-04-17T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "株式会社和漢薬研究所の公式告知を確認してください。",
+      "sourceName": "株式会社和漢薬研究所",
+      "sourceUrl": "https://www.capony-wakanyaku.co.jp/news-factory/882265"
+    },
+    {
+      "id": "741486b29cbf47f8d6cc643578ffd7a2340978fe9fef58def8db86416eaba6d3",
+      "title": "一般用医薬品：麦門冬湯エキス細粒G「コタロー」を新発売",
+      "category": "launch",
+      "publishedAt": "2026-04-15T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "コタロー"
+      ],
+      "summary": "小太郎漢方製薬株式会社の公式告知を確認してください。",
+      "sourceName": "小太郎漢方製薬株式会社",
+      "sourceUrl": "https://www.kotaro.co.jp/product/product_list/detail/%e9%ba%a6%e9%96%80%e5%86%ac%e6%b9%af%ef%bc%88%e3%81%b0%e3%81%8f%e3%82%82%e3%82%93%e3%81%a9%e3%81%86%e3%81%a8%e3%81%86%ef%bc%89%e3%82%a8%e3%82%ad%e3%82%b9%e7%b4%b0%e7%b2%92g%e3%80%8c%e3%82%b3%e3%82%bf/"
+    },
+    {
+      "id": "305769ddb01843168c43882f3e05801fdbbbabb2bb947bfc522bc04a53af8844",
+      "title": "一般用医薬品：猪苓湯エキス細粒G「コタロー」を新発売",
+      "category": "launch",
+      "publishedAt": "2026-04-15T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "コタロー"
+      ],
+      "summary": "小太郎漢方製薬株式会社の公式告知を確認してください。",
+      "sourceName": "小太郎漢方製薬株式会社",
+      "sourceUrl": "https://www.kotaro.co.jp/product/product_list/detail/%e7%8c%aa%e8%8b%93%e6%b9%af%ef%bc%88%e3%81%a1%e3%82%87%e3%82%8c%e3%81%84%e3%81%a8%e3%81%86%ef%bc%89%e3%82%a8%e3%82%ad%e3%82%b9%e7%b4%b0%e7%b2%92g%e3%80%8c%e3%82%b3%e3%82%bf%e3%83%ad%e3%83%bc%e3%80%8d/"
+    },
+    {
+      "id": "e1456fd90b0d173af044f75abdd29f70d1e709c648a8fa87feef1e7c7760fad8",
+      "title": "2026年04月13日 メディア情報 【配信されました】イスクラ婦宝当帰膠B TverCM配信のお知らせ",
+      "category": "general",
+      "publishedAt": "2026-04-13T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "イスクラ産業株式会社の公式告知を確認してください。",
+      "sourceName": "イスクラ産業株式会社",
+      "sourceUrl": "https://www.iskra.co.jp/news/6632/"
+    },
+    {
+      "id": "94e4a61d43dc988fab657740ec2fdd21a3b7fc4df3e73650d90a9022ab3f50c9",
+      "title": "2026.04.07 オースギ福岡Web漢方セミナーのお知らせ（05月23日開催）",
+      "category": "general",
+      "publishedAt": "2026-04-07T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "大杉製薬株式会社の公式告知を確認してください。",
+      "sourceName": "大杉製薬株式会社",
+      "sourceUrl": "https://ohsugi-kanpo.co.jp/study/3471"
+    },
+    {
+      "id": "49512a65e394ff917d34ac6e9b65098c1660dd3ed29a51de0968aa4f6a651b80",
+      "title": "東洋薬行医療用漢方製剤【薬価表】",
+      "category": "general",
+      "publishedAt": "2026-04-01T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "株式会社東洋薬行の公式告知を確認してください。",
+      "sourceName": "株式会社東洋薬行",
+      "sourceUrl": "https://www.toyo-yakuko.co.jp/images/product/iryo01/260401.pdf"
+    },
+    {
+      "id": "c3948481f374d450a8a04e7d0081c600c0f66f0332e33169d7d2d77d99ed06bb",
+      "title": "東洋薬行漢方エキス製剤の供給に関するお知らせとお詫び",
+      "category": "general",
+      "publishedAt": "2026-04-01T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "株式会社東洋薬行の公式告知を確認してください。",
+      "sourceName": "株式会社東洋薬行",
+      "sourceUrl": "https://www.toyo-yakuko.co.jp/images/product/iryo01/250904.pdf"
+    },
+    {
+      "id": "ac61f1fe984ce95aa707bcd97e2e418c56344df802cf13a1458e86d7609dc38d",
+      "title": "2026.03.12 ニュースリリース 「ツムラ漢方防風通聖散エキス顆粒」新パッケージを追加発売",
+      "category": "launch",
+      "publishedAt": "2026-03-26T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "ツムラ漢方防風通聖散エキス顆粒"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/newsrelease/item/20260312.pdf"
+    },
+    {
+      "id": "280f38cc717f32a7f904b73bbc00f02fd85031f087aa16dd2e8b37c9a104811a",
+      "title": "「脚がむずむずして寝つけない」夜に！むずむず脚などによる寝つきの悪さを改善する漢方薬「ムズナイト」が新登場",
+      "category": "launch",
+      "publishedAt": "2026-03-25T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "脚がむずむずして寝つけない",
+        "ムズナイト"
+      ],
+      "summary": "小林製薬株式会社の公式告知を確認してください。",
+      "sourceName": "小林製薬株式会社",
+      "sourceUrl": "https://www.kobayashi.co.jp/newsrelease/2026/20260325_03/"
+    },
+    {
+      "id": "c293097699d64fb5664ed26377e8b5e8e3f3fce17d86dd33752236eb60954595",
+      "title": "2026.03.17 中部漢方臨床講座 開催のご案内（令和8年5月～令和9年1月）",
+      "category": "general",
+      "publishedAt": "2026-03-17T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [],
+      "summary": "大杉製薬株式会社の公式告知を確認してください。",
+      "sourceName": "大杉製薬株式会社",
+      "sourceUrl": "https://ohsugi-kanpo.co.jp/study/3467"
+    },
+    {
+      "id": "57d48c1802ba84ff3287d92b8e5ab8d4d45cc200de4b919f5f668ccfbe6b8c62",
+      "title": "重要なお知らせ 2026.02.17 [Tue] 弊社製造「猪苓湯エキス〔細粒〕４２」（第２類医薬品）の 自主回収についてのお詫びとお知らせ",
+      "category": "recall",
+      "publishedAt": "2026-03-02T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "猪苓湯エキス〔細粒〕４２"
+      ],
+      "summary": "松浦薬業株式会社の公式告知を確認してください。",
+      "sourceName": "松浦薬業株式会社",
+      "sourceUrl": "https://www.matsuura-gp.co.jp/wp-content/uploads/2026/02/20260217_%E8%87%AA%E4%B8%BB%E5%9B%9E%E5%8F%8E%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E7%8C%AA%E8%8B%93%E6%B9%AF%E3%82%A8%E3%82%AD%E3%82%B9%E3%80%94%E7%B4%B0%E7%B2%92%E3%80%9542%EF%BC%892.pdf"
+    },
+    {
+      "id": "5ab3f3dd3c302161f9377ce6727ddc5dcad157bfff1b7a8e8a31bbdcfe00b766",
+      "title": "2026.02.18 お知らせ 「漢方薬の十全大補湯が免疫チェックポイント阻害剤によるがん治療効果を増強することを発見」に関する論文掲載のお知らせ",
+      "category": "general",
+      "publishedAt": "2026-02-25T03:00:00.000Z",
+      "launchDate": null,
+      "productNames": [
+        "漢方薬の十全大補湯が免疫チェックポイント阻害剤によるがん治療効果を増強することを発見"
+      ],
+      "summary": "株式会社ツムラの公式告知を確認してください。",
+      "sourceName": "株式会社ツムラ",
+      "sourceUrl": "https://www.tsumura.co.jp/news/topics/2025/202602181000.html"
+    }
+  ]
+}

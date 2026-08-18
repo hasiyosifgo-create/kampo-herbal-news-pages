@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="日本漢方生薬製剤協会の会員企業を対象に、漢方・生薬の新発売、回収、中止・終了を整理するニュースサイト" />
+    <title>漢方・生薬ニュース</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div class="brand"><span class="brand-mark">葉</span><span><b>漢方・生薬ニュース</b><small>KAMPO &amp; MATERIA MEDICA</small></span></div>
+        <p id="updated-at" class="updated">データを読み込み中</p>
+      </header>
+      <section class="hero">
+        <p class="eyebrow">OFFICIAL NOTICE MONITOR</p>
+        <h1>漢方と生薬の変化を、<br />公式情報から見極める。</h1>
+        <p>日漢協会員企業の公式告知とPMDA情報を対象に、新発売・回収・中止／終了を整理します。</p>
+      </section>
+      <section id="coverage" class="coverage" aria-live="polite"></section>
+      <section class="toolbar">
+        <div id="filters" class="filters" aria-label="カテゴリで絞り込む"></div>
+        <button id="unread-toggle" class="outline-button" type="button">未読のみ</button>
+      </section>
+      <section id="news" class="grid" aria-live="polite"></section>
+    </main>
+    <template id="article-template">
+      <article class="card">
+        <div class="card-top"><span class="badge"></span><time></time></div>
+        <h2></h2><p class="product"></p><p class="summary"></p>
+        <div class="card-bottom"><span class="source"></span><div><button class="read-button" type="button"></button><a class="source-link" target="_blank" rel="noreferrer">公式詳細 ↗</a></div></div>
+      </article>
+    </template>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
