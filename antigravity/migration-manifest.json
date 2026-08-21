@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "projectName": "kampo-herbal-news-antigravity",
+  "language": "ja-JP",
+  "timeZone": "Asia/Tokyo",
+  "sourceRepository": "https://github.com/hasiyosifgo-create/kampo-herbal-news-pages",
+  "dataFiles": {
+    "articles": "../docs/data/news.json",
+    "memberSources": "../member-sources.txt",
+    "crawler": "../scripts/github-pages-crawl.mjs"
+  },
+  "articleSchema": {
+    "id": "string: stable hash of canonical official URL",
+    "title": "string",
+    "category": "launch | recall | discontinued | store | general",
+    "publishedAt": "ISO-8601 UTC datetime",
+    "launchDate": "YYYY-MM-DD | null; only set when expressly identified as the product launch date",
+    "productNames": "string[]",
+    "summary": "string",
+    "sourceName": "string",
+    "sourceUrl": "absolute official URL"
+  },
+  "classificationPolicy": {
+    "launch": "Official notice of a Kampo or crude-drug product launch, sale start, or expressly identified new product.",
+    "recall": "Official recall, voluntary recall, or recall notice for a Kampo or crude-drug product.",
+    "discontinued": "Official sales end, manufacturing end, supply stop, or limited shipment notice for a Kampo or crude-drug product.",
+    "store": "Official Kampo or crude-drug store opening or relocation notice. Do not classify as launch.",
+    "general": "Other Kampo or crude-drug research, educational, regulatory, or company news.",
+    "exclusions": ["cosmetics", "supplements", "health teas", "generic corporate news unrelated to Kampo or crude drugs"]
+  },
+  "collectionPolicy": {
+    "memberCompanies": 55,
+    "officialSources": 52,
+    "pmdaFallbackCompanies": 3,
+    "rotation": "Split official sources deterministically into three groups and check one group per execution.",
+    "deduplication": "Use a canonical official URL hash as the primary key, retain one source-rich official notice for each duplicate event.",
+    "retentionDays": 180,
+    "displayDateRule": "Show a launch date only when it is clearly extracted from the official announcement. Otherwise show the official notice date."
+  },
+  "uiRequirements": [
+    "Responsive Japanese interface with category badges for launch, recall, discontinued, store, and general.",
+    "Display manufacturer, product names, official notice date, known launch date, and official detail link.",
+    "Use browser-local read state; it must remain separate per device and browser.",
+    "Show member-company coverage and the latest collection status."
+  ]
+}
